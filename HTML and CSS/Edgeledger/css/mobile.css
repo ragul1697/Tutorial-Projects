@@ -1,0 +1,46 @@
+.l-heading {
+  font-size: 3rem;
+}
+.lead {
+  font-size: 1.5rem;
+}
+/* Navbar */
+#navbar {
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+#navbar .logo {
+  text-align: center;
+}
+
+/* Showcase */
+#showcase .showcase-content {
+  padding: 1rem 1rem;
+}
+
+/* Section What */
+#what .items {
+  display: block;
+}
+
+/* Section Who */
+#who {
+  display: block;
+}
+#who .who-img {
+  display: none;
+}
+
+/* Clients */
+#clients .items div:last-child {
+  display: none;
+}
+
+/* Contact */
+#contact {
+  display: block;
+}
+#contact .map {
+  height: 15rem;
+}

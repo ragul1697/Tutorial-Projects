@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background:#f4f4f4;
+}
+
+/* Navbar */
+#navbar ul{
+    list-style: none;
+}
+#navbar ul li{
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem;
+}
+#navbar ul li,
+#navbar ul li a{
+    color: #333;
+}
+
+#navbar ul li:hover{
+    background: coral;
+    cursor: pointer;
+}
+#navbar ul li:hover, 
+#navbar ul li:hover a{
+    color: #fff;
+}
+
+
+/* Dropdown */
+#navbar ul li ul{
+    display: none;
+}
+
+#navbar ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    margin-top: 0.5rem;
+}
+
+#navbar ul li:hover ul li{
+    display: block;
+    background: #e7e7e7;
+}
+#navbar ul li:hover ul li a{
+    color: #333;
+}
+#navbar ul li:hover ul li:hover{
+    background: #e0e0e0;
+    color: inherit;
+}
+
+#navbar ul li:hover ul li span{
+    float: right;
+    background: coral;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 5px;
+}
+#navbar ul li:hover ul li:hover span{
+    background: chocolate;
+}
+
+/* Responsive */
+@media (max-width:600px){
+    #navbar ul li{
+        display: block;
+    }
+    #navbar ul li:hover ul{
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+}
+
+/* Showcase */
+section{
+    height: 300px;
+    width: 100%;
+    background: orange;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section h1{
+    font-size: 2rem;
+    text-align: center;
+}

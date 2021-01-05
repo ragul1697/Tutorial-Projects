@@ -1,0 +1,23 @@
+.success,
+.error {
+  color: #fff;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
+
+input[type="submit"] {
+  background: #333;
+  color: #fff;
+  transition: all 1s ease;
+}
+input[type="submit"]:hover {
+  background: #f4f4f4;
+}

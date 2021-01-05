@@ -1,0 +1,14 @@
+/* Section What We Do */
+#what .items .item {
+  display: flex;
+  align-items: center;
+}
+
+#what .items .item i {
+  align-self: center;
+}
+
+/* Section Contact */
+#contact .map {
+  flex: 2;
+}

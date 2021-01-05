@@ -1,0 +1,14 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+ul {
+  list-style: none;
+}
+li {
+  background: #333;
+  color: #fff;
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 5px;
+}

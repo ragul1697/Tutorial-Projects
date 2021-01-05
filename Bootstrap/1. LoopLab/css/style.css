@@ -1,0 +1,53 @@
+body {
+  background: #333;
+  color: #fff;
+}
+/* Nav Bar */
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+/* SHOWCASE */
+#home-section {
+  background: url("../img/home.jpg") no-repeat center center/cover;
+  min-height: 620px;
+}
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 620px;
+  background: rgba(0, 0, 0, 0.7);
+}
+#home-section .home-inner {
+  padding-top: 7rem;
+}
+#home-section .home-inner .card-form {
+  opacity: 0.8;
+  margin-top: 2rem;
+}
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* EXPLORE */
+#explore-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* SHARE */
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
